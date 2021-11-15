@@ -1,0 +1,177 @@
+body
+{
+	background-image:url('1.jpg');
+	background-size:100%;
+}
+/*.box
+{font-family:Comic Sans MS;
+width:450px;
+padding:5px;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+box-sizing:border-box;
+box-shadow:8px 8px 50px black;
+}*/
+
+.box input[type ="submit"]
+{
+border:0;
+background:none;
+display:block;
+margin:5px auto;
+text-align:center;
+border: 3px solid green;
+padding:10px 20px;
+outline:none;
+border-radius:24px;
+transition:0.2s;
+cursor:pointer;
+}
+.box input[type ="submit"]:hover
+{
+background-color:green;
+}
+.box input[type ="text"]
+{
+border:0;
+background:none;
+display:block;
+margin:0px auto;
+text-align:center;
+border: 3px solid #3498db;
+padding:8px 5px;
+width:200px;
+outline:none;
+color:black;
+border-radius:24px;
+transition:0.2s;
+}
+.box input[type ="text"]:hover
+{
+width:300px;
+border-color:green;
+}
+body
+{
+margin:0;
+padding:0;
+font-family:sans-serif;
+background-image:url('Blue Gradient.jpg');
+-webkit-background-size:cover;
+background-size:cover;
+}
+
+.box
+{
+font-family:Courgette;
+width:400px;
+padding:40px;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+text-align:center;
+box-sizing:border-box;
+box-shadow:8px 8px 50px black;
+}
+
+.box h1{
+font-family:Comic Sans MS;
+}
+
+.box input[type ="text"],.box button[type ="password"]
+{
+border:0;
+background:none;
+display:block;
+margin:20px auto;
+text-align:center;
+border: 3px solid #3498DB;
+padding:14px 10px;
+width:200px;
+outline:none;
+color:black;
+border-radius:24px;
+transition:0.2s;
+}
+.box input[type ="text"]:focus,.box button[type ="password"]:hover
+{
+width:300px;
+border-color:green;
+}
+
+.box input[type ="submit"]
+{
+border:0;
+background:none;
+display:block;
+margin:20px auto;
+text-align:center;
+border: 3px solid green;
+padding:14px 50px;
+outline:none;
+border-radius:24px;
+transition:0.2s;
+cursor:pointer;
+}
+.box input[type ="submit"]:hover
+{
+background-color:green;
+}
+a:hover
+{
+font-size:20px;
+}
+.col a{
+font-size:14px;
+color:#fff;
+
+}
+
+
+
+
+.button {
+  border-radius: 4px;
+  background-color: #F4511E;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: 150px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover{
+  padding-right: 25px;
+}
+.button:hover {
+  background-color: red;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}

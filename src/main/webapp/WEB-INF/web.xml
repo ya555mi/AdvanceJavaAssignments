@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+	<display-name>myproject</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>LoginUserServlet</servlet-name>
+		<jsp-file>/LoginUser.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginUserServlet</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+
+
+		<servlet>
+		<servlet-name>SearchUser</servlet-name>
+		<jsp-file>/UserJspSearch.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SearchUser</servlet-name>
+		<url-pattern>/search</url-pattern>
+	</servlet-mapping>
+
+	
+	
+
+	<servlet>
+		<servlet-name>UserDataBase</servlet-name>
+		<jsp-file>/UserRegistration.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserDataBase</servlet-name>
+		<url-pattern>/registration</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserVerify1</servlet-name>
+		<jsp-file>/index.html</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserVerify1</servlet-name>
+		<url-pattern>/registration1</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>UpdateS</servlet-name>
+		<jsp-file>/UserUpdate1.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateS</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+	
+
+	<servlet>
+		<servlet-name>UserDetails</servlet-name>
+		<jsp-file>/Dasboard.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserDetails</servlet-name>
+		<url-pattern>/show</url-pattern>
+	</servlet-mapping>	
+	<session-config>
+		<session-timeout>30</session-timeout>
+	</session-config>
+</web-app>

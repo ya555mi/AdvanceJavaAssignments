@@ -1,0 +1,108 @@
+body {
+    background-image: url('1.jpg');
+    background-size: 100%;
+}
+
+.showalltable {
+    margin-top: 100px;
+    padding: 10px;
+    background-color: rgb(255, 128, 64);
+    color: white;
+    /*text-align:center;*/
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px black;
+}
+
+.tab {
+    margin-top: 350px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px black;
+}
+
+.tab td {
+    display: inline-block;
+    padding: 20px;
+}
+
+.tab tr:hover {
+    background-color: green;
+    font-size: 20px;
+}
+
+#mymenu {
+    margin-top: -10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+}
+
+#mymenu ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+#mymenu ul li:hover {
+    background-color: blue;
+    font-size: 21px;
+}
+
+.col a {
+    font-size: 14px;
+}
+
+a {
+    font-size: 25px;
+    color: white;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #F4511E;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 150px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover {
+    padding-right: 25px;
+}
+
+.button:hover {
+    background-color: red;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
